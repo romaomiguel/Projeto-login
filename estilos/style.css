@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/*Cores
+    Verde: #49a09d
+    Lilás: #5f2c82
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, #49a09d, #5f2c82)
+}
+div#formulario {
+    background-color: white;
+    display: block;
+    margin: auto;
+    width: 700px;
+    border-radius: 10px;
+    padding: 10px;
+}
+div > h1 {
+    text-align: center;
+}
+
+div#gmail > input#email {
+    border-radius: 6px;
+}
